@@ -17,8 +17,8 @@ TRANSFORM = T.Compose([
 
 
 # Camera setting
-VIDEO_SIZE = (1920, 1080)
-FULLSCREEN = True
+VIDEO_SIZE = (960, 540)
+FULLSCREEN = False
 
 
 # Define model
