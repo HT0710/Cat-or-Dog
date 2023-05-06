@@ -26,7 +26,7 @@ def dataset_generator(
     # Revmove old Dataset if replace=True
     rmtree(DATA_PATH) if os.path.exists(DATA_PATH) else None
     
-    # Create Train, Val, Test folder for all classes
+    # Create Train, Test folder for all classes
     for split_path in ['train', 'test']:
         for class_name in CLASSES:
             DATA_PATH.joinpath(f"{split_path}/{class_name}").mkdir(parents=True, exist_ok=True)
@@ -34,7 +34,7 @@ def dataset_generator(
     # Get all full path of data in source path
     DATASET = []
     for format in image_format:
-        DATASET.extend(list(Path(src_path).glob(f'*/*.{format}')))
+        DATASET.extend(list(Path(src_path).rglob(f'*/*.{format}')))
 
     # Split the dataset
     train_data, test_data = random_split(DATASET, split_size)
