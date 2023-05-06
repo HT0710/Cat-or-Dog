@@ -1,4 +1,5 @@
 import torch.nn as nn
+from torchinfo import summary
 
 
 class VGG13(nn.Module):
@@ -96,3 +97,7 @@ class TinyVGG(nn.Module):
         out = self.conv2(out)
         out = self.classifier(out)
         return out
+
+if __name__ == '__main__':
+    model = VGG13()
+    summary(model, (1, 3, 224, 224))
