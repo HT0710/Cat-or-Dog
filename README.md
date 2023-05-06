@@ -1,6 +1,8 @@
 # <p align="center">Cat or Dog</p>
 
-![16_prediction](https://user-images.githubusercontent.com/95120444/236637964-e35077ac-50a1-46b4-9e31-6f36cee74b72.png)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/95120444/236637964-e35077ac-50a1-46b4-9e31-6f36cee74b72.png"/>
+</p>
 
 ---
 ## Table of Contents
@@ -25,7 +27,9 @@ The dataset can be downloaded from Kaggle: [Link](https://www.kaggle.com/dataset
 
 My pre-trained model can be downloaded: [Here](https://drive.google.com/file/d/1xDxMeu_OgLQvPK-98-h9XNe47kEvIYKY/view?usp=sharing)
 
-![VGG](https://user-images.githubusercontent.com/95120444/236639251-27372056-fcab-4c20-90f7-dae2fec49a56.png)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/95120444/236642489-8a72c03f-7d61-46c8-9204-a3af7144fdf5.png"/>
+</p>
 
 ## Install
 - Download directly: [Link](https://github.com/HT0710/Cat-or-Dog/archive/refs/heads/main.zip)
