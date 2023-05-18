@@ -88,7 +88,7 @@ def main(args):
 if __name__ == '__main__':
     args = argparse.ArgumentParser(description='Train Hyperparameter')
     args.add_argument('-bs', '--batch_size', type=int, default=16, help='Set batch size (Default: 16)')
-    args.add_argument('-e', '--epoch', type=float, default=20, help='Set number of epochs (Default: 20)')
+    args.add_argument('-e', '--epoch', type=int, default=20, help='Set number of epochs (Default: 20)')
     args.add_argument('-lr', '--learning_rate', type=float, default=0.00001, help='Set learning rate (Default: 0.00001)')
     args.add_argument('-ss', '--save_step', type=int, default=2, help='Model save frequency (Default: 2)')
     args = args.parse_args()
